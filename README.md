@@ -1,3 +1,4 @@
-## Soc Sci 2 - Group 3
+## Soc Sci 2 Final Project
 
+Group 3 members:
 Espada, Fabia, Lapiz, Lopez, Magpantay, Menguito

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link href="src/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400|Oswald:400,500,600,700" rel="stylesheet">
+        
+        <title>Federalism - Soc Sci X3 Team Project</title>
+
+    </head>
+
+    <body>
+        <div class="jumbotron parallax paralsec">
+            <section class="heading">
+                <h1 class="display-4">Federalism</h1>
+                <p class="lead">Soc Sci 2 X3: Group 3</p>
+            </section>
+            <nav class="head">
+                <ul id="menu" class="nav justify-content-center" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home" data-toggle="tab" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#group" data-toggle="tab" role="tab" aria-controls="group" aria-selected="false">Group</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#page" data-toggle="tab" role="tab" aria-controls="page" aria-selected="false">Link</a>
+                </li>
+                </ul>
+            </nav>
+        
+            <section class="white">
+            <div class="tab-content">
+                <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab"><p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget felis sit amet diam mattis rutrum. Ut orci odio, congue at urna id, rutrum interdum massa. Aenean vitae pharetra eros. Duis a fermentum turpis. Suspendisse maximus, mauris in suscipit commodo, lacus eros ultricies felis, nec imperdiet tellus ante eget sem. Ut purus neque, rutrum eget justo vel, elementum accumsan nisi. Cras pulvinar lobortis quam vel dapibus. Nunc eu consequat neque. Proin in tempus leo. Quisque fermentum neque viverra, accumsan ligula quis, pretium nisi. Aenean facilisis interdum enim, ut bibendum turpis luctus nec. Vivamus posuere leo facilisis purus venenatis, vitae viverra augue euismod. Donec molestie libero massa, ut scelerisque velit lacinia eget. Sed ultrices, lorem sit amet rhoncus sodales, mi lorem hendrerit turpis, sit amet commodo risus orci id purus. Nullam quis massa sit amet sapien vulputate viverra.</p></div>
+                <div class="tab-pane" id="group" role="tabpanel" aria-labelledby="group-tab"><p class="my-4">Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum aliquet euismod nibh sed dignissim. Nunc vitae scelerisque diam, nec rutrum sapien. Phasellus at nunc tortor. Integer fermentum hendrerit consectetur. Sed id pretium quam. Nunc ultricies mi vel ante accumsan molestie. Suspendisse bibendum luctus nisi tincidunt pellentesque. Nulla a sodales nibh. In cursus odio a volutpat mattis. Cras condimentum velit ac volutpat elementum. Integer aliquet ac leo in ultricies. Donec tincidunt, ex ac consectetur convallis, enim nibh vehicula dui, ac eleifend erat est et quam.</p></div>
+                <div class="tab-pane" id="page" role="tabpanel" aria-labelledby="page-tab"><p class="my-4">Sed faucibus nisi ut odio commodo imperdiet. Donec vestibulum ante lacus, a pellentesque justo iaculis ut. Fusce egestas facilisis neque, vitae mattis sapien aliquet eget. Fusce tempus placerat dolor quis scelerisque. Praesent imperdiet lectus ac enim ornare feugiat. Sed mollis nulla in nulla dictum, in lobortis neque venenatis. Pellentesque semper tellus id mauris sollicitudin, eget ornare erat eleifend.</p></div>
+            </div>
+            </section>
+        </div>
+        
+        <div class="jumbotron parallax paralsec" style="min-height:500px !important"></div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+        <script src="src/init.js"></script>
+
+        <script>
+            $('#menu a').on('click', function (e) {
+                e.preventDefault()
+                $(this).tab('show')
+            });
+        </script>
+    </body>
+</html>

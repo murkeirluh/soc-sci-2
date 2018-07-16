@@ -34,14 +34,20 @@
         
             <section class="white">
             <div class="tab-content">
-                <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab"><p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget felis sit amet diam mattis rutrum. Ut orci odio, congue at urna id, rutrum interdum massa. Aenean vitae pharetra eros. Duis a fermentum turpis. Suspendisse maximus, mauris in suscipit commodo, lacus eros ultricies felis, nec imperdiet tellus ante eget sem. Ut purus neque, rutrum eget justo vel, elementum accumsan nisi. Cras pulvinar lobortis quam vel dapibus. Nunc eu consequat neque. Proin in tempus leo. Quisque fermentum neque viverra, accumsan ligula quis, pretium nisi. Aenean facilisis interdum enim, ut bibendum turpis luctus nec. Vivamus posuere leo facilisis purus venenatis, vitae viverra augue euismod. Donec molestie libero massa, ut scelerisque velit lacinia eget. Sed ultrices, lorem sit amet rhoncus sodales, mi lorem hendrerit turpis, sit amet commodo risus orci id purus. Nullam quis massa sit amet sapien vulputate viverra.</p></div>
-                <div class="tab-pane" id="group" role="tabpanel" aria-labelledby="group-tab"><p class="my-4">Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum aliquet euismod nibh sed dignissim. Nunc vitae scelerisque diam, nec rutrum sapien. Phasellus at nunc tortor. Integer fermentum hendrerit consectetur. Sed id pretium quam. Nunc ultricies mi vel ante accumsan molestie. Suspendisse bibendum luctus nisi tincidunt pellentesque. Nulla a sodales nibh. In cursus odio a volutpat mattis. Cras condimentum velit ac volutpat elementum. Integer aliquet ac leo in ultricies. Donec tincidunt, ex ac consectetur convallis, enim nibh vehicula dui, ac eleifend erat est et quam.</p></div>
-                <div class="tab-pane" id="page" role="tabpanel" aria-labelledby="page-tab"><p class="my-4">Sed faucibus nisi ut odio commodo imperdiet. Donec vestibulum ante lacus, a pellentesque justo iaculis ut. Fusce egestas facilisis neque, vitae mattis sapien aliquet eget. Fusce tempus placerat dolor quis scelerisque. Praesent imperdiet lectus ac enim ornare feugiat. Sed mollis nulla in nulla dictum, in lobortis neque venenatis. Pellentesque semper tellus id mauris sollicitudin, eget ornare erat eleifend.</p></div>
+                <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget felis sit amet diam mattis rutrum. Ut orci odio, congue at urna id, rutrum interdum massa. Aenean vitae pharetra eros. Duis a fermentum turpis. Suspendisse maximus, mauris in suscipit commodo, lacus eros ultricies felis, nec imperdiet tellus ante eget sem. Ut purus neque, rutrum eget justo vel, elementum accumsan nisi. Cras pulvinar lobortis quam vel dapibus. Nunc eu consequat neque. Proin in tempus leo. Quisque fermentum neque viverra, accumsan ligula quis, pretium nisi. Aenean facilisis interdum enim, ut bibendum turpis luctus nec. Vivamus posuere leo facilisis purus venenatis, vitae viverra augue euismod. Donec molestie libero massa, ut scelerisque velit lacinia eget. Sed ultrices, lorem sit amet rhoncus sodales, mi lorem hendrerit turpis, sit amet commodo risus orci id purus. Nullam quis massa sit amet sapien vulputate viverra.</p></div>
+                
+                    <div class="tab-pane" id="group" role="tabpanel" aria-labelledby="group-tab">
+                        <p class="my-4"><h5>Group 3 members:</h5></p>
+                        <p>Mae Espada<br>Gian Fabia<br>Jeremy Lapiz<br>Mikayla Lopez<br>Oli Magpantay<br>Dominic Menguito</p>
+                    </div>
+                    
+                    <div class="tab-pane" id="page" role="tabpanel" aria-labelledby="page-tab"><p class="my-4">Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum aliquet euismod nibh sed dignissim. Nunc vitae scelerisque diam, nec rutrum sapien. Phasellus at nunc tortor. Integer fermentum hendrerit consectetur. Sed id pretium quam. Nunc ultricies mi vel ante accumsan molestie. Suspendisse bibendum luctus nisi tincidunt pellentesque. Nulla a sodales nibh. In cursus odio a volutpat mattis. Cras condimentum velit ac volutpat elementum. Integer aliquet ac leo in ultricies. Donec tincidunt, ex ac consectetur convallis, enim nibh vehicula dui, ac eleifend erat est et quam.<br>Sed faucibus nisi ut odio commodo imperdiet. Donec vestibulum ante lacus, a pellentesque justo iaculis ut. Fusce egestas facilisis neque, vitae mattis sapien aliquet eget. Fusce tempus placerat dolor quis scelerisque. Praesent imperdiet lectus ac enim ornare feugiat. Sed mollis nulla in nulla dictum, in lobortis neque venenatis. Pellentesque semper tellus id mauris sollicitudin, eget ornare erat eleifend.</p></div>
             </div>
             </section>
         </div>
         
-        <div class="jumbotron parallax paralsec" style="min-height:500px !important"></div>
+        <div class="jumbotron parallax paralsec" style="min-height:150px !important"></div>
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -49,10 +55,7 @@
         <script src="src/init.js"></script>
 
         <script>
-            $('#menu a').on('click', function (e) {
-                e.preventDefault()
-                $(this).tab('show')
-            });
+            
         </script>
     </body>
 </html>

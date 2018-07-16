@@ -22,3 +22,8 @@ $(document).ready(function(){
 
 /* Create HTML5 element for IE */
 document.createElement("section");
+
+$('#menu a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+});
